@@ -14,8 +14,8 @@ class AppIntro extends React.PureComponent {
   state = {
     currentPage: 0,
     lastPage: -1,
-    email: "shukerullah.shah@cubixlabs.com",
-    password: "123456",
+    email: "",
+    password: "",
     errors: {},
     secureTextEntry: true
   };

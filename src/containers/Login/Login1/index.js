@@ -14,8 +14,8 @@ import Util from "../../../util";
 
 class Login extends Component {
   state = {
-    email: "shukerullah.shah@cubixlabs.com",
-    password: "123456",
+    email: "",
+    password: "",
     errors: {},
     secureTextEntry: true
   };

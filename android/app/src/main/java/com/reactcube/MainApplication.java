@@ -3,6 +3,8 @@ package com.reactcube;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
+import com.imagepicker.ImagePickerPackage;
 import com.airbnb.android.react.maps.MapsPackage;
 import com.BV.LinearGradient.LinearGradientPackage;
 import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
@@ -26,6 +28,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new SplashScreenReactPackage(),
+            new ImagePickerPackage(),
             new MapsPackage(),
             new LinearGradientPackage(),
             new RNI18nPackage()
